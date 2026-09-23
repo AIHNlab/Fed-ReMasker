@@ -1,0 +1,34 @@
+# Python cache files
+__pycache__/
+*.pyc
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Generated datasets — regenerate locally via Datasets/create_datasets.py
+# Keep only the top-level Original/data.csv; exclude all client splits
+Datasets/*/*/Missing/
+Datasets/*/*/Original/*/
+Datasets/*/*/Imputed/
+
+# Generated result files — regenerate via Results/evaluate_imputation.py and plot_results.py
+# Only .py is tracked under Results/ — every generated table/sheet is ignored
+Results/*.csv
+Results/*.xlsx
+Results/figures/
+Results/Results
+test_compare_miwae.py.tmp.41836.1777021405953
+test_compare_miwae.py
+Imputation/impute_missing.py.tmp.8844.628e9e3d86c7
+Imputation/impute_missing.py.tmp.8844.9cf12e52050d
+
+paper_figures/
+logs/
+/NHANES/
+# Raw downloaded files — reproducible via Datasets/preprocess_real.py
+Datasets/Real/*/Raw/
+
+# Codon raw file left over from old directory structure
+Datasets/Real/codon/Original/data_raw.csv
+CLAUDE.md

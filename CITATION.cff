@@ -1,0 +1,33 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the paper below."
+title: "Fed-ReMasker"
+repository-code: "https://github.com/AIHNlab/Fed-ReMasker"
+license: Apache-2.0
+authors:
+  - family-names: Papathanail
+    given-names: Ioannis
+  - family-names: Poursoleymani
+    given-names: Rooholla
+  - family-names: Abdur Rahman
+    given-names: Lubnaa
+  - family-names: Mougiakakou
+    given-names: Stavroula Georgia
+preferred-citation:
+  type: article
+  title: "Fed-ReMasker: Federated Tabular Imputation under Feature-Level Missingness"
+  authors:
+    - family-names: Papathanail
+      given-names: Ioannis
+    - family-names: Poursoleymani
+      given-names: Rooholla
+    - family-names: Abdur Rahman
+      given-names: Lubnaa
+    - family-names: Mougiakakou
+      given-names: Stavroula Georgia
+  year: 2026
+  journal: "arXiv preprint arXiv:2609.28105"
+  url: "https://arxiv.org/abs/2609.28105"
+  identifiers:
+    - type: other
+      value: "arXiv:2609.28105"
+      description: "arXiv preprint"
